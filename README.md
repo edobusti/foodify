@@ -12,6 +12,7 @@ A web application that allows users to search for their favorite meals, view ing
 - **Step-by-Step Tutorial**: View step-by-step instructions for preparing meals.
 - **Asynchronous Data Fetching**: Smooth data retrieval with asynchronous functions for a better user experience.
 - **Error Handling**: Robust error handling to manage issues like failed API requests or missing data.
+- **Pixel-perfect design**: Every detail is crafted with precision to ensure a flawless user experience.
 
 ## Architecture
 
