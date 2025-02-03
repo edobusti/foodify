@@ -29,9 +29,10 @@ The application uses **TheMealDB API** to fetch recipes from a database. This AP
 
 ## Technologies Used
 
-- **HTML5/CSS3**: For creating the structure and styling of the web pages.
-- **JavaScript ES6+**: For dynamic content, client-side interactions, and asynchronous data fetching using `async`/`await`.
-- **TheMealDB API**: For fetching recipe data from a database.
+- **HTML5**
+- **CSS3**
+- **JavaScript ES6+**
+- **TheMealDB API**
 
 ## Live Version on Netlify
 
