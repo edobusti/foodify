@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Noto+Sans+JP:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Protest+Riot&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <title>Foodify</title>
+  </head>
+  <body>
+    <div class="container-app">
+      <div class="nav">
+        <img src="/img/foodify-logo.png" class="logo" alt="" />
+        <div class="search-box">
+          <input
+            type="text"
+            placeholder="Search a new meal (es. cake, soup)"
+            class="search-bar"
+          />
+          <button class="search-btn">
+            <div class="search-btn-text">
+              <img
+                src="/img/search-icon.svg"
+                class="search-icon"
+                alt=""
+              />SEARCH
+            </div>
+          </button>
+        </div>
+
+        <div class="bookmarks">
+          <img class="bookmark-icon" src="/img/bookmark-icon.svg" alt="" />
+          <span>BOOKMARKS</span>
+          <div class="bookmarks-view"></div>
+        </div>
+      </div>
+      <div class="meal-results">
+        <div class="results-view"></div>
+        <div class="change-page"></div>
+        <div class="results-footer">Copyright @ 2024 Edoardo Busti</div>
+      </div>
+      <div class="meal-view"></div>
+    </div>
+  </body>
+  <script type="module" src="/js/controller.js"></script>
+</html>
