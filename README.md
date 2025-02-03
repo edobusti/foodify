@@ -48,3 +48,7 @@ You can view the live version of the project on **Netlify**:
 ### Selected Meal
 
 ![Selected Meal](img/preview/load-meal.png)
+
+### Bookmarks View
+
+![Bookmarks View](img/preview/bookmarks-view.png)
